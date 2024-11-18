@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/wwq/z3/build/examples/CMakeFiles/userPropagator"
+		},
+		{
+			"file" : "/Users/wwq/z3/build/examples/CMakeFiles/userPropagator.rule"
+		},
+		{
+			"file" : "/Users/wwq/z3/build/examples/CMakeFiles/userPropagator-complete.rule"
+		},
+		{
+			"file" : "/Users/wwq/z3/build/examples/userPropagator-prefix/src/userPropagator-stamp/userPropagator-build.rule"
+		},
+		{
+			"file" : "/Users/wwq/z3/build/examples/userPropagator-prefix/src/userPropagator-stamp/userPropagator-configure.rule"
+		},
+		{
+			"file" : "/Users/wwq/z3/build/examples/userPropagator-prefix/src/userPropagator-stamp/userPropagator-download.rule"
+		},
+		{
+			"file" : "/Users/wwq/z3/build/examples/userPropagator-prefix/src/userPropagator-stamp/userPropagator-install.rule"
+		},
+		{
+			"file" : "/Users/wwq/z3/build/examples/userPropagator-prefix/src/userPropagator-stamp/userPropagator-mkdir.rule"
+		},
+		{
+			"file" : "/Users/wwq/z3/build/examples/userPropagator-prefix/src/userPropagator-stamp/userPropagator-patch.rule"
+		},
+		{
+			"file" : "/Users/wwq/z3/build/examples/userPropagator-prefix/src/userPropagator-stamp/userPropagator-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"userPropagator"
+		],
+		"name" : "userPropagator"
+	}
+}

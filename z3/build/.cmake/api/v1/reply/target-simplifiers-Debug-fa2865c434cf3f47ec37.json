@@ -1,0 +1,512 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/bit_blaster.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/bound_manager.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/bound_propagator.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/bound_simplifier.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/bv_bounds_simplifier.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/bv_slice.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/card2bv.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/demodulator_simplifier.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/dependent_expr_state.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/dominator_simplifier.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/distribute_forall.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/elim_unconstrained.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/eliminate_predicates.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/euf_completion.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/extract_eqs.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/linear_equation.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/max_bv_sharing.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/model_reconstruction_trail.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/propagate_values.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/reduce_args_simplifier.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/solve_context_eqs.cpp.o"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeFiles/simplifiers.dir/solve_eqs.cpp.o"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"z3_add_component",
+			"add_dependencies",
+			"z3_add_component_dependencies_to_target",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"cmake/z3_add_component.cmake",
+			"src/ast/simplifiers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 237,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 207,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 203,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 203,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 203,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Werror=odr  -Werror=delete-non-virtual-dtor  -Werror=overloaded-virtual  -Werror=non-virtual-dtor  -Werror=null-dereference  -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wall"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 16,
+					"define" : "Z3DEBUG"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_MP_INTERNAL"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "_TRACE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 19,
+					"path" : "/Users/wwq/z3/build/src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/wwq/z3/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "util::@6bc12a100e338ba65b7b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "polynomial::@8d06ad2c9aca8e8772e2"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "automata::@c03fdd289820959a05fe"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "interval::@771d33181dff84a20d81"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "ast::@82451c30a77be7f89338"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "params::@b26aa942ca73af6d2251"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rewriter::@edda3ad5ea2f8f14cc34"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "bit_blaster::@4831973c81ed785dd86f"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "normal_forms::@01848afe0d99e15ba6cb"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "euf::@4988f5cff9d28444ab69"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "substitution::@abb9226f6363bba48eef"
+		}
+	],
+	"id" : "simplifiers::@ca54e93bc9d2a9306edf",
+	"name" : "simplifiers",
+	"paths" : 
+	{
+		"build" : "src/ast/simplifiers",
+		"source" : "src/ast/simplifiers"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/bit_blaster.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/bound_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/bound_propagator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/bound_simplifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/bv_bounds_simplifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/bv_slice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/card2bv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/demodulator_simplifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/dependent_expr_state.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/dominator_simplifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/distribute_forall.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/elim_unconstrained.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/eliminate_predicates.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/euf_completion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/extract_eqs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/linear_equation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/max_bv_sharing.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/model_reconstruction_trail.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/propagate_values.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/reduce_args_simplifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/solve_context_eqs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ast/simplifiers/solve_eqs.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/shell/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"z3"
+			],
+			"targetId" : "shell::@f9a454401d50237771d4",
+			"targetIndex" : 57,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/shell",
+		"source" : "src/shell"
+	}
+}

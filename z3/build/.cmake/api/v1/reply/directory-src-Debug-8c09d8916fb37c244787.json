@@ -1,0 +1,83 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 203,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libz3.4.12.3.0.dylib",
+				"libz3.4.12.dylib"
+			],
+			"targetId" : "libz3::@145eef247bfb46b6828c",
+			"targetIndex" : 30,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libz3.dylib"
+			],
+			"targetId" : "libz3::@145eef247bfb46b6828c",
+			"targetIndex" : 30,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"src/api/z3_algebraic.h",
+				"src/api/z3_api.h",
+				"src/api/z3_ast_containers.h",
+				"src/api/z3_fixedpoint.h",
+				"src/api/z3_fpa.h",
+				"src/api/z3.h",
+				"src/api/c++/z3++.h",
+				"src/api/z3_macros.h",
+				"src/api/z3_optimization.h",
+				"src/api/z3_polynomial.h",
+				"src/api/z3_rcf.h",
+				"src/api/z3_v1.h",
+				"src/api/z3_spacer.h",
+				"build/src/util/z3_version.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	}
+}

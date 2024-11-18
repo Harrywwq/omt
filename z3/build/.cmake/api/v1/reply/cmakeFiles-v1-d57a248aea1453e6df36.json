@@ -1,0 +1,686 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.30.2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Platform/Darwin-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.30.2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Platform/Darwin.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Compiler/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"path" : "cmake/cxx_compiler_flags_overrides.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "cmake/git_utils.cmake"
+		},
+		{
+			"path" : ".git/HEAD"
+		},
+		{
+			"path" : ".git/refs/heads/master"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/FindPythonInterp.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/target_arch_detect.cmake"
+		},
+		{
+			"path" : "cmake/target_arch_detect.cpp"
+		},
+		{
+			"path" : "cmake/z3_add_cxx_flag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/compiler_warnings.cmake"
+		},
+		{
+			"path" : "cmake/compiler_lto.cmake"
+		},
+		{
+			"path" : "cmake/check_link_atomic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "cmake/cmake_uninstall.cmake.in"
+		},
+		{
+			"path" : "cmake/z3_add_component.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"path" : "cmake/z3_append_linker_flag_list_to_target.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "cmake/Z3Config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "z3.pc.cmake.in"
+		},
+		{
+			"path" : "cmake/Z3Config.cmake.in"
+		},
+		{
+			"path" : "src/CMakeLists.txt"
+		},
+		{
+			"path" : "src/util/CMakeLists.txt"
+		},
+		{
+			"path" : "src/util/z3_version.h.cmake.in"
+		},
+		{
+			"path" : "src/math/polynomial/CMakeLists.txt"
+		},
+		{
+			"path" : "src/math/dd/CMakeLists.txt"
+		},
+		{
+			"path" : "src/math/hilbert/CMakeLists.txt"
+		},
+		{
+			"path" : "src/math/simplex/CMakeLists.txt"
+		},
+		{
+			"path" : "src/math/automata/CMakeLists.txt"
+		},
+		{
+			"path" : "src/math/interval/CMakeLists.txt"
+		},
+		{
+			"path" : "src/math/realclosure/CMakeLists.txt"
+		},
+		{
+			"path" : "src/math/subpaving/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ast/CMakeLists.txt"
+		},
+		{
+			"path" : "src/params/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ast/rewriter/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ast/rewriter/bit_blaster/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ast/normal_forms/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ast/macros/CMakeLists.txt"
+		},
+		{
+			"path" : "src/model/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ast/euf/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ast/converters/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ast/substitution/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ast/simplifiers/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tactic/CMakeLists.txt"
+		},
+		{
+			"path" : "src/qe/mbp/CMakeLists.txt"
+		},
+		{
+			"path" : "src/qe/lite/CMakeLists.txt"
+		},
+		{
+			"path" : "src/smt/params/CMakeLists.txt"
+		},
+		{
+			"path" : "src/parsers/util/CMakeLists.txt"
+		},
+		{
+			"path" : "src/math/grobner/CMakeLists.txt"
+		},
+		{
+			"path" : "src/sat/CMakeLists.txt"
+		},
+		{
+			"path" : "src/nlsat/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tactic/core/CMakeLists.txt"
+		},
+		{
+			"path" : "src/math/subpaving/tactic/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tactic/aig/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tactic/arith/CMakeLists.txt"
+		},
+		{
+			"path" : "src/solver/CMakeLists.txt"
+		},
+		{
+			"path" : "src/cmd_context/CMakeLists.txt"
+		},
+		{
+			"path" : "src/cmd_context/extra_cmds/CMakeLists.txt"
+		},
+		{
+			"path" : "src/parsers/smt2/CMakeLists.txt"
+		},
+		{
+			"path" : "src/solver/assertions/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ast/pattern/CMakeLists.txt"
+		},
+		{
+			"path" : "src/math/lp/CMakeLists.txt"
+		},
+		{
+			"path" : "src/sat/smt/CMakeLists.txt"
+		},
+		{
+			"path" : "src/sat/tactic/CMakeLists.txt"
+		},
+		{
+			"path" : "src/nlsat/tactic/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ackermannization/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ast/proofs/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ast/fpa/CMakeLists.txt"
+		},
+		{
+			"path" : "src/smt/proto_model/CMakeLists.txt"
+		},
+		{
+			"path" : "src/smt/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tactic/bv/CMakeLists.txt"
+		},
+		{
+			"path" : "src/smt/tactic/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tactic/sls/CMakeLists.txt"
+		},
+		{
+			"path" : "src/qe/CMakeLists.txt"
+		},
+		{
+			"path" : "src/muz/base/CMakeLists.txt"
+		},
+		{
+			"path" : "src/muz/dataflow/CMakeLists.txt"
+		},
+		{
+			"path" : "src/muz/transforms/CMakeLists.txt"
+		},
+		{
+			"path" : "src/muz/rel/CMakeLists.txt"
+		},
+		{
+			"path" : "src/muz/clp/CMakeLists.txt"
+		},
+		{
+			"path" : "src/muz/tab/CMakeLists.txt"
+		},
+		{
+			"path" : "src/muz/bmc/CMakeLists.txt"
+		},
+		{
+			"path" : "src/muz/ddnf/CMakeLists.txt"
+		},
+		{
+			"path" : "src/muz/spacer/CMakeLists.txt"
+		},
+		{
+			"path" : "src/muz/fp/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tactic/ufbv/CMakeLists.txt"
+		},
+		{
+			"path" : "src/sat/sat_solver/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tactic/smtlogics/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tactic/fpa/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tactic/fd_solver/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tactic/portfolio/CMakeLists.txt"
+		},
+		{
+			"path" : "src/opt/CMakeLists.txt"
+		},
+		{
+			"path" : "src/api/CMakeLists.txt"
+		},
+		{
+			"path" : "src/api/dll/CMakeLists.txt"
+		},
+		{
+			"path" : "src/shell/CMakeLists.txt"
+		},
+		{
+			"path" : "src/test/CMakeLists.txt"
+		},
+		{
+			"path" : "src/test/fuzzing/CMakeLists.txt"
+		},
+		{
+			"path" : "src/test/lp/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/mkdirs.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/examples/c_example-prefix/tmp/c_example-mkdirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/RepositoryInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/UpdateInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/PatchInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/cfgcmd.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/mkdirs.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/examples/c_maxsat_example-prefix/tmp/c_maxsat_example-mkdirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/RepositoryInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/UpdateInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/PatchInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/cfgcmd.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/mkdirs.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/examples/cpp_example-prefix/tmp/cpp_example-mkdirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/RepositoryInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/UpdateInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/PatchInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/cfgcmd.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/mkdirs.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/examples/z3_tptp5-prefix/tmp/z3_tptp5-mkdirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/RepositoryInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/UpdateInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/PatchInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/cfgcmd.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/mkdirs.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/examples/userPropagator-prefix/tmp/userPropagator-mkdirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/RepositoryInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/UpdateInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/PatchInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/ExternalProject/cfgcmd.txt.in"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/Users/wwq/z3/build",
+		"source" : "/Users/wwq/z3"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

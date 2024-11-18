@@ -1,0 +1,726 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/muz/base/CMakeFiles/muz.dir/bind_variables.cpp.o"
+		},
+		{
+			"path" : "src/muz/base/CMakeFiles/muz.dir/dl_boogie_proof.cpp.o"
+		},
+		{
+			"path" : "src/muz/base/CMakeFiles/muz.dir/dl_context.cpp.o"
+		},
+		{
+			"path" : "src/muz/base/CMakeFiles/muz.dir/dl_costs.cpp.o"
+		},
+		{
+			"path" : "src/muz/base/CMakeFiles/muz.dir/dl_rule.cpp.o"
+		},
+		{
+			"path" : "src/muz/base/CMakeFiles/muz.dir/dl_rule_set.cpp.o"
+		},
+		{
+			"path" : "src/muz/base/CMakeFiles/muz.dir/dl_rule_subsumption_index.cpp.o"
+		},
+		{
+			"path" : "src/muz/base/CMakeFiles/muz.dir/dl_rule_transformer.cpp.o"
+		},
+		{
+			"path" : "src/muz/base/CMakeFiles/muz.dir/dl_util.cpp.o"
+		},
+		{
+			"path" : "src/muz/base/CMakeFiles/muz.dir/hnf.cpp.o"
+		},
+		{
+			"path" : "src/muz/base/CMakeFiles/muz.dir/rule_properties.cpp.o"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"z3_add_component",
+			"add_dependencies",
+			"z3_add_component_dependencies_to_target",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"cmake/z3_add_component.cmake",
+			"src/muz/base/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 237,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 207,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 203,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 203,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 203,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Werror=odr  -Werror=delete-non-virtual-dtor  -Werror=overloaded-virtual  -Werror=non-virtual-dtor  -Werror=null-dereference  -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 46,
+					"fragment" : "-Wall"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 47,
+					"define" : "Z3DEBUG"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "_MP_INTERNAL"
+				},
+				{
+					"backtrace" : 49,
+					"define" : "_TRACE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 50,
+					"path" : "/Users/wwq/z3/build/src"
+				},
+				{
+					"backtrace" : 51,
+					"path" : "/Users/wwq/z3/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "util::@6bc12a100e338ba65b7b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "polynomial::@8d06ad2c9aca8e8772e2"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "dd::@23679a7afdd10791f5b4"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "simplex::@6797ab799a40aa90d3fe"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "automata::@c03fdd289820959a05fe"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "interval::@771d33181dff84a20d81"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "ast::@82451c30a77be7f89338"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "params::@b26aa942ca73af6d2251"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rewriter::@edda3ad5ea2f8f14cc34"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "bit_blaster::@4831973c81ed785dd86f"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "normal_forms::@01848afe0d99e15ba6cb"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "macros::@2a615f82f12ce5b2c1cd"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "model::@dd52281f56f5d51f359a"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "euf::@4988f5cff9d28444ab69"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "converters::@4c6e387b4955793a7f50"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "substitution::@abb9226f6363bba48eef"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "simplifiers::@ca54e93bc9d2a9306edf"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "tactic::@2f580a174d3ebf960039"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "mbp::@f7274c8b9313cb11cbaf"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "qe_lite::@ec7130dcf4040379a9f7"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "smt_params::@97c7d1eba9c3d8b0fc12"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "parser_util::@950c1730cd40ce09d8fa"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "grobner::@4eb6039e7a9ae76e0ba1"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "sat::@d47bc915974f3a76f563"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "nlsat::@0d70502d51e0aa911334"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "core_tactics::@885f93e0c2973fa4378b"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "aig_tactic::@95cb9968617a17bbdb77"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "arith_tactics::@19e8c294bfdda7d34b92"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "solver::@56b03cb272704949ecff"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "cmd_context::@a2a3a91db8f798611596"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "smt2parser::@5ec4922254221d73302f"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "solver_assertions::@057792a3ed95c07de926"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "pattern::@90beef24188963c12bc7"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "lp::@2385ba11514d7fe46718"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "sat_smt::@09689284ff5810e0b478"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "sat_tactic::@031b9ebd0e99b81a54d9"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "nlsat_tactic::@92432ad51f274673a66d"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "proofs::@203272206ddb96bdd54a"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "fpa::@e00d574e2d4d4dd4f309"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "proto_model::@94e67a53e93b5fbe9c70"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "smt::@348c3a94af092e249fef"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "qe::@df10b3a77a3303825a78"
+		}
+	],
+	"id" : "muz::@7dacd7b1ea016243c19b",
+	"name" : "muz",
+	"paths" : 
+	{
+		"build" : "src/muz/base",
+		"source" : "src/muz/base"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				12
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/muz/base/bind_variables.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/muz/base/dl_boogie_proof.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/muz/base/dl_context.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/muz/base/dl_costs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/muz/base/dl_rule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/muz/base/dl_rule_set.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/muz/base/dl_rule_subsumption_index.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/muz/base/dl_rule_transformer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/muz/base/dl_util.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/muz/base/hnf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/muz/base/rule_properties.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/muz/base/fp_params.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "src/muz/base/fp_params.pyg",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}
