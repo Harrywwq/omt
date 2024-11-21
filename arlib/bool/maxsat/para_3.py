@@ -1,8 +1,7 @@
+"""每次选取单个目标4个比特位计算"""
 import multiprocessing
 import os
 import concurrent.futures
-import subprocess
-
 from pysat.solvers import Solver
 import time
 from arlib.bool.maxsat.process import cnf_from_z3, read_cnf, res_z3_trans, assum_in_m, list_to_int
@@ -16,7 +15,7 @@ def get_obj(queue):  # 从队列获取目标
 
 
 # 随机选取开始位置
-def bs_2(constr, objs, res, q, solver='m22'):
+def bs_3(constr, objs, res, q, solver='m22'):
     t = time.time()
     with Solver(bootstrap_with=constr, name=solver) as s:
         if s.solve():
@@ -29,16 +28,20 @@ def bs_2(constr, objs, res, q, solver='m22'):
             if i is None:
                 continue
             r = list(res[i])
-            lit = objs[i][len(r)]
-            assum = r + [lit]
-            if assum_in_m(assum, m):
-                r.append(lit)
-            else:
-                if s.solve(assumptions=assum):
-                    r.append(lit)
-                    m = s.get_model()
+            for j in range(4):
+                if len(r) < len(objs[i]):
+                    lit = objs[i][len(r)]
+                    assum = r + [lit]
+                    if assum_in_m(assum, m):
+                        r.append(lit)
+                    else:
+                        if s.solve(assumptions=assum):
+                            r.append(lit)
+                            m = s.get_model()
+                        else:
+                            r.append(-lit)
                 else:
-                    r.append(-lit)
+                    break
             res[i] = r
             if len(r) < len(objs[i]):
                 q.put(i)
@@ -46,7 +49,7 @@ def bs_2(constr, objs, res, q, solver='m22'):
     return t
 
 
-def para_obj_2(forml, objs, con, k, solver='m22'):
+def para_obj_3(forml, objs, con, k, solver='m22'):
     for obj in objs:
         obj.reverse()
     with multiprocessing.Manager() as m:
@@ -55,7 +58,7 @@ def para_obj_2(forml, objs, con, k, solver='m22'):
             obj_queue.put(i)
         res = m.list([m.list([]) for _ in range(len(objs))])
         with concurrent.futures.ProcessPoolExecutor(max_workers=k, mp_context=multiprocessing.get_context("fork")) as executor:
-            futures = [executor.submit(bs_2, forml, objs, res, obj_queue, solver) for _ in range(k)]
+            futures = [executor.submit(bs_3, forml, objs, res, obj_queue, solver) for _ in range(k)]
         result = []
         for r in res:
             result.append(list(r))
@@ -75,11 +78,11 @@ if __name__ == '__main__':
     t = time.time()
     d = cnf_from_z3(filename)
     hard, soft, con = read_cnf(d)
-    res = para_obj_2(hard, soft, con, 4)
+    res = para_obj_3(hard, soft, con, 4)
     t = time.time() - t
     print(res)
     print(t)
-    t = time.time()
+    '''t = time.time()
     res_z3 = subprocess.run(['z3', 'opt.priority=box', filename],
                             capture_output=True,
                             text=True,
@@ -87,4 +90,6 @@ if __name__ == '__main__':
     t_z3 = time.time() - t
     print(res_z3)
     print(res == res_z3_trans(res_z3))
-    print('z3:', t_z3)
+    print('z3:', t_z3)'''
+    r_z3 = [18446744073709551615, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 18446744073709551615, 0, 18446744073709551615, 0, 0, 0, 0, 0, 0, 0, 18446744073709551615, 0, 0, 0, 0, 0, 18446744073709551615, 0, 18446744073709551615, 0]
+    print(res == r_z3)

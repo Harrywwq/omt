@@ -50,7 +50,7 @@ def obv_bs(clauses, literals, solver='m22'):
     return result
 
 
-def run_box_opt_3(formula, objs_queue, res, obj_type, solver='m22'):  # 使用队列作为获取目标方式
+def run_box_opt_1(formula, objs_queue, res, obj_type, solver='m22'):  # 使用队列作为获取目标方式
     t = time.time()
     obj = get_obj(objs_queue)
     while len(obj):
@@ -69,24 +69,19 @@ def run_box_opt_3(formula, objs_queue, res, obj_type, solver='m22'):  # 使用�
     return t
 
 
-def parall_queue_3(hard, soft, obj_type, k, solver='m22'):  # 输入硬软约束，返回结果和运行时间
-    t3 = time.time()
+def parall_queue_1(hard, soft, obj_type, k, solver='m22'):  # 输入硬软约束，返回结果和运行时间
     num = len(soft)
     with mp.Manager() as m:
         # lock = m.Lock()
         obj_queue = m.Queue()
         en_que(soft, obj_queue)
         res = m.list([-1]*num)
-        t1 = time.time()
         with concurrent.futures.ProcessPoolExecutor(max_workers=k) as executor:
-            futures = [executor.submit(run_box_opt_3, hard, obj_queue, res, obj_type, solver) for _ in range(k)]
-        t2 = time.time()-t1
+            futures = [executor.submit(run_box_opt_1, hard, obj_queue, res, obj_type, solver) for _ in range(k)]
         result = []
         for r in res:
             result.append(r)
-        t1 = time.time()-t1
-    t = time.time()-t3
-    return result, [t2, t1, t]
+    return result
 
 
 if __name__ == '__main__':
@@ -95,7 +90,7 @@ if __name__ == '__main__':
     path = os.path.dirname(path)
     path = os.path.dirname(path)
 
-    file_1 = r'benchmarks/omt/clearblue/case110691201.smt2'
+    file_1 = r'benchmarks/omt/clearblue/case1316487718.smt2'
 
     filename = os.path.join(path, file_1)
 
@@ -104,9 +99,9 @@ if __name__ == '__main__':
     t_1 = time.time()-t
     hard, soft, con = read_cnf(d)
     t_trans = time.time()-t
-    res, t_r = parall_queue_3(hard, soft, con, 4, 'g3')
+    res = parall_queue_1(hard, soft, con, 4, 'g3')
     t = time.time()-t
-    print('t', t, [t_1,t_trans], t_r)
+    print('t:', t)
     print('res:', res)
     t = time.time()
     res_z3 = subprocess.run(['z3', 'opt.priority=box', filename],

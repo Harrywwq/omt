@@ -11,6 +11,18 @@ def cnt(result):  # 将结果转化为整数
     return sums
 
 
+def list_to_int(result, obj_type):
+    res = []
+    for i in range(len(result)):
+        score = cnt(result[i])
+        if obj_type[i] == 1:
+            res.append(score)
+        else:
+            score = 2 ** len(result[i]) - 1 - score
+            res.append(score)
+    return res
+
+
 def assum_in_m(assum, m):
     for i in assum:
         if i not in m:
